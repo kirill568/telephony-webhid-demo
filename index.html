@@ -350,10 +350,10 @@
 
 			// Open the device.
 			await device[0].open();
-			if (!device.opened) {
-				logappend('open failed');
-				return;
-			}
+			// if (!device.opened) {
+			// 	logappend('open failed');
+			// 	return;
+			// }
 			if (mode == "auto") {
 				enumerateReports();
 			}
